@@ -599,6 +599,35 @@ footer{
 
 }
 
+.stickyFooter{
+
+	background-image: url(stickyfooter.png);
+	position: fixed;
+	bottom: 0px;
+	z-index: 0.5;
+	height: 65px;
+	width: 100%;
+}
+
+.stickyFooter p{
+
+	line-height: 65px;
+	display: inline;
+	font-size: large;
+	color: white;
+}
+.stickyFooter button{
+
+	display: inline-block;
+	margin: 0 auto;
+	margin-left: 10px;
+	padding: 5px 10px;
+	background-color: #fcfcfc;
+	box-shadow: none;
+	border: 2px #fcfcfc solid;
+	border-radius: 3px;
+}
+
 /*============MEDIA QUERIES==============*/
 
 @media only screen and (min-width: 690px) {
