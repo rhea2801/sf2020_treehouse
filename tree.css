@@ -607,6 +607,7 @@ footer{
 	z-index: 0.5;
 	height: 65px;
 	width: 100%;
+	display: none;
 }
 
 .stickyFooter p{
@@ -850,6 +851,11 @@ footer{
 	.footerlogo, .footer1, .footer2{
 
 		width: 25%;
+	}
+	
+	.stickyFooter{
+		
+		display:block;
 	}
 
 	
